@@ -44,7 +44,8 @@ node scripts/download.mjs --manifest /absolute/path/manifest.json --id YOUR_EXAC
 - [验证分层与未解决问题](docs/VALIDATION.md)
 - [发布检查](docs/PUBLISHING.md)
 - [数据格式](schemas/README.md)
+- [对外分享：资料链接与可参考内容](docs/SHARE.md)
 
 ## 授权
 
-本仓库先以私有形式保存。尚未选择开源许可证；不要把“能访问”视为获得游戏资源或第三方数据的再分发授权。项目非官方，与游戏开发者无隶属关系。
+本仓库现已公开，供阅读与交流。尚未选择开源许可证；公开可读不等于授权复制、修改或再分发代码、游戏资源及第三方数据。需要复用时请先联系仓库所有者确认许可。项目非官方，与游戏开发者无隶属关系。
