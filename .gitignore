@@ -1,0 +1,23 @@
+# Never commit game assets, credentials, local state, downloaded datasets or binaries.
+node_modules/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.exe
+*.dll
+*.pck
+*.save
+*.zip
+*.gz
+*.log
+*.part
+downloads/
+local-data/
+calibration/
+coverage/
+tmp/
+publish-receipt.json

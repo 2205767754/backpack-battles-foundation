@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "evidence_type": "OBSERVED_LAYOUT_ONLY",
+  "source": {
+    "namespace": "synthetic",
+    "build_id": "invented-example-not-a-player",
+    "payload_sha256": "0000000000000000000000000000000000000000000000000000000000000000"
+  },
+  "class_id": "ExampleClass",
+  "starting_bag_id": "synthetic:bag",
+  "confirmed_subclass_id": null,
+  "board": { "rows": 3, "cols": 3 },
+  "rounds": [
+    {
+      "round": 1,
+      "coord_source": "SOURCE_EXACT",
+      "wallet": null,
+      "actions": { "buy": null, "sell": null, "craft": null, "reroll": null, "offers": null },
+      "placements": [
+        { "instance_id": "bag-1", "item_id": "synthetic:bag", "kind": "bag", "r": 0, "c": 0, "rot": 0, "occupied_cells": [[0,0],[0,1],[1,0],[1,1]] },
+        { "instance_id": "item-1", "item_id": "synthetic:beacon", "kind": "item", "r": 0, "c": 0, "rot": 0, "occupied_cells": [[0,0]], "channels": { "star": [[0,1]], "diamond": [[1,0]] } },
+        { "instance_id": "item-2", "item_id": "synthetic:twig", "kind": "item", "r": 0, "c": 1, "rot": 0, "occupied_cells": [[0,1]] }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "backpack-battles-foundation",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Data contracts, integrity checks, geometry validation and confirmed-event replay. Not a battle solver.",
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "test": "node --test",
+    "check:publication": "node scripts/check-publication.mjs",
+    "demo": "node scripts/demo.mjs"
+  }
+}
